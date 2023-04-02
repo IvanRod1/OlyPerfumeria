@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between; /*Lo que hace esto es separar la botonera de la imagen del header*/
+    height: 65px;
+    background-color: aquamarine;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.botoneraHeader{
+    text-decoration: none;
+    margin: 40px;
+}
+
+nav a{
+    font-weight: bold;
+}
