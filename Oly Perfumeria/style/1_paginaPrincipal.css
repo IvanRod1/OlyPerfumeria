@@ -29,3 +29,24 @@ header{
 nav a{
     font-weight: bold;
 }
+
+footer{
+    display: flex;
+    background-color:chartreuse;
+    height: 65px;
+    
+}
+
+.instagram{
+    text-decoration: none;
+}
+
+.botoneraFooter{
+    list-style: none;
+    padding-left: 500px;
+    margin-top: 25px;
+    /*align-items: center;*/
+}
+#nombrePerfumeriaFooter{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
