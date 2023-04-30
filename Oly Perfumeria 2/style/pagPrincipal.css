@@ -2,26 +2,59 @@ body{
   margin : 0px;
   padding: 0px;
 }
-/*header{
-    display: inline-flexbox;
+header{
+    display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
-    height: 90px;
+    min-height: 90px;
     align-items: center;
-    padding: 15px;
-    margin: 10px;
-    
-    
-    
-}*/
-
-
-
-#logo{
-    margin-left: 100px;
+    padding: 15px;      
 }
 
-.header-barmenu{
+.logo img{
+    height: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-weight: 6000;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.headerLink{
+    text-decoration: none;
+    color: black;
+    
+    padding-right: 150px;
+}
+
+nav{
+    display: flex;
+    padding-right:100px;
+}
+
+@media (max-width : 700px)
+{
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+
+    #perfumes{
+        padding: 20px;
+    }
+}
+/*.header-barmenu{
 
     text-decoration: none;
     margin-left: 100px;
@@ -30,7 +63,8 @@ body{
     
     
 
-}
+}*/
+
 #fondoCabecera{
     display: flex;
     width: 100%;
@@ -118,6 +152,18 @@ footer{
     left: 0;
     z-index: 1;
   }
+
+  .nombrePerfume{
+    font-weight: bold;
+    font-size: 100%;
+    padding-top: 10px;
+  }
+
+  .precio{
+    color: grey;
+  }
+
+
 
 
 
